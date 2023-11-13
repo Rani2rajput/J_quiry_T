@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>j_query</title>
+    <script src="jquery.js"></script>
+    <style>
+        #cercle {
+            border-radius: 50%;
+            background-color: aquamarine;
+            height: 200px;
+            width: 200px;
+            margin: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="cercle"></div>
+    <script>
+        $('div').click(function() {
+            // $(alert("welcome"))
+            $('div').css("width", "500px")
+            $('div').css("background-color", "red")
+            $('div').css("height", "500px")
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>j_query</title>
+    <script src="jquery.js"></script>
+
+    <style>
+        .cercle {
+            border-radius: 50%;
+            height: 150px;
+            width: 150px;
+        }
+        
+        .square {
+            border-radius: 0%;
+            height: 150px;
+            width: 150;
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+        
+        #green {
+            background-color: green;
+        }
+        
+        #red {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cercle" id="green"></div>
+    <div class="square" id="red"></div>
+    <div class="square" id="red"></div>
+
+    <script>
+        // $("#green").click(function() {
+        //     alert("cercle is clicked")
+        // })
+
+        // $("#red").click(function() {
+        //     alert("squire is clicked")
+        // })
+
+        // $("#red").click(function() {
+        //     alert("squire2 is clicked")
+        // })
+
+
+        $("div").click(function() {
+            alert("its all cliked")
+        })
+    </script>
+
+</body>
+
+</html>
